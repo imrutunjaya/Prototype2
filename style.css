@@ -128,7 +128,7 @@ main {
   font-size: 1rem;
   line-height: 1.5;
   white-space: pre-wrap;
-  max-width: 1200px; /* slightly wider for larger screens */
+  max-width: 1250px; /* slightly wider for larger screens */
   margin-left: auto;
   margin-right: auto;
   border-radius: 4px;
