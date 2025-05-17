@@ -70,7 +70,7 @@ main {
   width: 100%;
   padding: 0.625rem 1rem; /* restored padding */
   font-size: 1rem;
-  border: 2px solid #040404; /* restored green border */
+  border: 1px solid #040404; /* restored green border */
   border-radius: 3px; /* restored */
   background-color: #fefefe;
   color: #040404;
@@ -79,21 +79,21 @@ main {
 }
 
 #search-input::placeholder {
-  color: #a5d6a7;
+  color: #040404;
   font-style: italic;
 }
 
 #search-input:focus {
-  border-color: #388e3c;
+  border-color: #040404;
   outline: none;
-  box-shadow: 0 0 8px #66bb6a;
+  box-shadow: 0 0 3px #66bb6a;
   background-color: #fffefb;
 }
 
 #topic-container {
   display: flex;
   flex-direction: column;
-  gap: 8px; /* reduced gap */
+  gap: 6px; /* reduced gap */
   width: 100%; /* full width */
 }
 
