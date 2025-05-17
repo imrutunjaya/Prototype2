@@ -57,7 +57,7 @@ header#topbar {
 
 main {
   flex: 1;
-  padding: 12rem 16rem 80rem;
+  padding: 1rem 1rem 6rem;
   overflow-y: auto;
 
 }
