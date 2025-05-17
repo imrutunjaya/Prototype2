@@ -1,0 +1,56 @@
+{
+  "Maths": [
+    {
+      "title": "Algebra Basics",
+      "content": "Algebra involves solving equations with unknowns. Key concepts include variables, constants, coefficients, and operations."
+    },
+    {
+      "title": "Geometry Intro",
+      "content": "Study of shapes, angles, and dimensions. Important topics include points, lines, planes, and various geometric figures."
+    },
+    {
+      "title": "Calculus Fundamentals",
+      "content": "Calculus is the study of change. It includes concepts such as limits, derivatives, and integrals."
+    }
+  ],
+  "Current Affairs": [
+    {
+      "title": "Election 2025",
+      "content": "Important updates and political analysis for 2025. Key candidates and their platforms will be discussed."
+    },
+    {
+      "title": "Climate Change Initiatives",
+      "content": "Overview of global efforts to combat climate change, including policies and grassroots movements."
+    }
+  ],
+  "English": [
+    {
+      "title": "Verb Forms",
+      "content": "Main verb tenses: present, past, and future. Understanding how to use them correctly is crucial for effective communication."
+    },
+    {
+      "title": "Literary Devices",
+      "content": "Common literary devices include metaphor, simile, alliteration, and personification, which enhance writing."
+    }
+  ],
+  "Computer": [
+    {
+      "title": "Introduction to Hardware",
+      "content": "Hardware includes the physical parts of a computer. Key components include the CPU, RAM, and storage devices."
+    },
+    {
+      "title": "Software Basics",
+      "content": "Software is a set of instructions that tells the hardware what to do. It can be system software or application software."
+    }
+  ],
+  "Tips & Tricks": [
+    {
+      "title": "Memory Hacks",
+      "content": "Use spaced repetition and visual association to enhance memory retention. Techniques like mind mapping can also be helpful."
+    },
+    {
+      "title": "Effective Study Techniques",
+      "content": "Active recall, summarization, and self-testing are proven methods to improve learning outcomes."
+    }
+  ]
+}
