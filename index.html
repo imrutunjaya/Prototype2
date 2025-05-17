@@ -5,23 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Study Notes</title>
   <link rel="stylesheet" href="style.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
   <header id="topbar">
-    <span id="back-button" onclick="goBack()" class="hidden" aria-label="Go back">&#8592;</span>
+    <button id="back-button" onclick="goBack()" class="hidden" aria-label="Go back">&#8592;</button>
     <h1 id="subject-title">Study Notes</h1>
   </header>
 
   <main>
-    <div id="search-box" class="hidden" >
-      <input 
-        type="text" 
-        id="search-input" 
-        placeholder="Search topics..." 
-        oninput="filterTopics()" 
-        aria-label="Search topics" 
-        autocomplete="off" />
+    <div id="search-box" class="hidden">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Search topics..."
+        oninput="filterTopics()"
+        aria-label="Search topics"
+        autocomplete="off"
+      />
     </div>
     <div id="topic-container" aria-live="polite" aria-relevant="additions"></div>
     <div id="note-content" class="hidden" tabindex="0" aria-label="Note content"></div>
@@ -38,4 +38,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
