@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Study Notes</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header id="topbar">
+    <span id="back-button" onclick="goBack()" class="hidden" aria-label="Go back">&#8592;</span>
+    <h1 id="subject-title">Study Notes</h1>
+  </header>
+
+  <main>
+    <div id="search-box" class="hidden" >
+      <input 
+        type="text" 
+        id="search-input" 
+        placeholder="Search topics..." 
+        oninput="filterTopics()" 
+        aria-label="Search topics" 
+        autocomplete="off" />
+    </div>
+    <div id="topic-container" aria-live="polite" aria-relevant="additions"></div>
+    <div id="note-content" class="hidden" tabindex="0" aria-label="Note content"></div>
+  </main>
+
+  <nav id="bottom-nav" role="navigation" aria-label="Subject navigation">
+    <button onclick="loadSubject('Maths')" id="btn-Maths" aria-pressed="false">Maths</button>
+    <button onclick="loadSubject('Current Affairs')" id="btn-Current Affairs" aria-pressed="false">Current Affairs</button>
+    <button onclick="loadSubject('English')" id="btn-English" aria-pressed="false">English</button>
+    <button onclick="loadSubject('Computer')" id="btn-Computer" aria-pressed="false">Computer</button>
+    <button onclick="loadSubject('Tips & Tricks')" id="btn-Tips & Tricks" aria-pressed="false">Tips & Tricks</button>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
