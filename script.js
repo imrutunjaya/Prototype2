@@ -52,7 +52,7 @@ function renderTopics() {
     const div = document.createElement('div');
     div.className = 'topic-item';
     div.textContent = topic.title;
-    div.tabIndex = 0; // Make it focusable
+    div.tabIndex = 0; // Make it focusable for accessibility
     div.onclick = () => displayNoteContent(topic);
     div.onkeypress = (e) => {
       if (e.key === 'Enter') {
