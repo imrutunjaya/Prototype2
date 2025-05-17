@@ -34,7 +34,7 @@ header#topbar {
 }
 
 #back-button {
-  font-size: 1.6rem;
+  font-size: 2rem;
   cursor: pointer;
   user-select: none;
   color: #000;
@@ -51,17 +51,15 @@ header#topbar {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.15rem;
 }
 
 main {
   flex: 1;
-  padding: 1rem 1rem 6rem;
+  padding: 12rem 16rem 80rem;
   overflow-y: auto;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+
 }
 
 #search-box {
