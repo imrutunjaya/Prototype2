@@ -70,7 +70,7 @@ main {
   width: 100%;
   padding: 0.625rem 1rem; /* restored padding */
   font-size: 1rem;
-  border: 1px solid #040404; /* restored green border */
+  border: 0.5px solid #48494b; /* restored green border */
   border-radius: 3px; /* restored */
   background-color: #fefefe;
   color: #040404;
